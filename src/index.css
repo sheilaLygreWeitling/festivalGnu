@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap");
 
 .fonth1 {
   font-family: "Smokum", cursive;
+}
+
+.fonth1Body {
+  font-family: "Moo Lah Lah", cursive;
 }
