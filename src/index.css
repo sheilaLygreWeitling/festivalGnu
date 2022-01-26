@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+
+.fonth1 {
+  font-family: "Smokum", cursive;
+}
