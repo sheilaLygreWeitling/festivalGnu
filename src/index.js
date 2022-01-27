@@ -12,7 +12,7 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     <div className='bg-gray-50'>
-      <div className='p-3 flex items-center justify-between w-full bg-transparent'>
+      <div className='p-3 flex items-center justify-between w-full bg-transparent fixed'>
         <div className='flex items-center'>
           <GnuLogo />
           <FestivalName />
@@ -22,13 +22,14 @@ ReactDOM.render(
         </div>
       </div>
       <div className=''>
-        <div className='absolute'>
-          <MainImage />
-        </div>
-        <div className='relative'>
+        <div className='flex justify-center pt-32'>
           <Welcome />
         </div>
+        <div >
+          <MainImage />
+        </div>
       </div>
+
     </div>
   </React.StrictMode >,
   document.getElementById('root')
