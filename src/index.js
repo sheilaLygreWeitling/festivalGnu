@@ -11,8 +11,8 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div >
-      <div className='p-3 flex items-center justify-between w-full'>
+    <div className='bg-gray-50'>
+      <div className='p-3 flex items-center justify-between w-full bg-transparent'>
         <div className='flex items-center'>
           <GnuLogo />
           <FestivalName />
@@ -30,7 +30,7 @@ ReactDOM.render(
         </div>
       </div>
     </div>
-  </React.StrictMode>,
+  </React.StrictMode >,
   document.getElementById('root')
 );
 

@@ -3,7 +3,7 @@ import gnuerne from "../../Image/gnu.png"
 
 const MainImage = () => {
     return <div>
-        <img src={gnuerne} alt="russiske gnuer" className='w-screen' />
+        <img src={gnuerne} alt="russiske gnuer" className='w-full' />
     </div>;
 };
 
