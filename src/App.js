@@ -2,9 +2,9 @@ import React from 'react'
 import Welcome from './assets/Components/FrontPage/Welcome';
 import BuyTicket from './assets/Components/Header/BuyTicket';
 import FestivalName from './assets/Components/Header/FestivalName';
-import { Routes, Route, Link } from "react-router-dom"
+
 import GnuLogo from './assets/Components/Header/GnuLogo';
-import BuyYourTicket from './Pages/BuyYourTicket';
+
 
 const App = () => {
     return (
