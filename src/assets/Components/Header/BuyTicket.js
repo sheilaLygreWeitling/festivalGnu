@@ -1,12 +1,13 @@
 import React from 'react';
 import { MdAddShoppingCart } from "react-icons/md";
+import { Link } from "react-router-dom"
 
 
 const BuyTicket = () => {
     return <div>
-
-        <button className='text-current flex items-center fonth1Body ' onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScL8U91vKNRZlvy214P9mlD3qdjrOo7tjbo3jDb9WyOGuSTZg/viewform")}> <MdAddShoppingCart /> Køb din billet her</button>
-
+        <Link to="/signup">
+            <button className='text-current flex items-center fonth1Body '> <MdAddShoppingCart /> Køb din billet her</button>
+        </Link>
     </div>;
 };
 

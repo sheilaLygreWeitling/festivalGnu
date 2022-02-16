@@ -2,12 +2,12 @@ import React from 'react'
 import Welcome from './assets/Components/FrontPage/Welcome';
 import BuyTicket from './assets/Components/Header/BuyTicket';
 import FestivalName from './assets/Components/Header/FestivalName';
-
 import GnuLogo from './assets/Components/Header/GnuLogo';
 
 
 const App = () => {
     return (
+
         <div>
             <div className='bg-gradient-to-r from-yellow-300 to-gray-400  h-[1000px]'>
                 <div className='p-3 flex items-center justify-between w-full bg-transparent fixed'>
@@ -29,6 +29,7 @@ const App = () => {
             </div>
 
         </div>
+
     )
 }
 
