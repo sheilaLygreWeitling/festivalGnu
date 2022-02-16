@@ -5,8 +5,8 @@ const BuyForm = () => {
         <div>
             <div className='bg-gradient-to-r from-yellow-300 to-gray-400  h-[1000px] fonth1Body  items-center'>
                 <div className="border flex flex-col items-center max-w-min p-5">
-                    <form name="contact" netlify netlify-honeypot="bot-field"  >
-                        <input type="hidden" name="form-name" value="the-name-of-the-html-form" />
+                    <form name="contact"
+                        name="fileForm" data-netlify="true" >
                         <label>Fulde navn:
                             <input type="text" name="name" />
                         </label>
