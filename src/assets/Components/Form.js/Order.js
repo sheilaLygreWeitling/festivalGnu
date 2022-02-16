@@ -2,7 +2,7 @@ import React from 'react'
 
 const Order = () => {
     return (
-        <div>HEJ</div>
+        <div>Tak for din bestilling</div>
     )
 }
 
