@@ -9,7 +9,7 @@ const App = () => {
     return (
 
         <div>
-            <div className='bg-[#6F7580]  h-[550px]'>
+            <div className='bg-[#6F7580]  h-[750px]'>
                 <div className='flex justify-center pt-32'>
                     <div className='absolute'>
                         <GnuLogo />
