@@ -9,26 +9,24 @@ const App = () => {
     return (
 
         <div>
-            <div className='bg-gradient-to-r from-yellow-300 to-gray-400  h-[1000px]'>
-                <div className='p-3 flex items-center justify-between w-full bg-transparent fixed'>
-                    <div className='flex items-center'>
+            <div className='bg-[#6F7580]  h-[550px]'>
+                <div className='flex justify-center pt-32'>
+                    <div className='absolute'>
                         <GnuLogo />
-                        <FestivalName />
                     </div>
-                    <div className='p-3 bg-green-300 rounded-xl '>
-                        <BuyTicket />
-                    </div>
-                    <div>
-                    </div>
-                </div>
-                <div>
-                    <div className='flex justify-center pt-32'>
+                    <div className='relative'>
                         <Welcome />
                     </div>
+
+                </div>
+                <div className='bg-[#FDE047] h-[400px] flex justify-center pt-32'>
+                    <BuyTicket />
+
                 </div>
             </div>
-
         </div>
+
+
 
     )
 }
