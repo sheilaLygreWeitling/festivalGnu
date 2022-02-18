@@ -11,7 +11,7 @@ const BuyForm = () => {
                         </label>
 
                         <label>Klan:
-                            <input type="text" name="email" />
+                            <input type="text" name="Klan" />
                         </label>
 
                         <label>Skal du have salatbar til 25 kr. Send pengene til 53 12 40 67 (Andreas):
