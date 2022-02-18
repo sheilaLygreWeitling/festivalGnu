@@ -5,14 +5,13 @@ const BuyForm = () => {
         <div>
             <div className='bg-gradient-to-r from-yellow-300 to-gray-400  h-[1000px] fonth1Body  items-center'>
                 <div className="border flex flex-col items-center max-w-min p-5">
-                    <form name="contact"
-                        name="fileForm" data-netlify="true" >
+                    <form name="contact" method='POST' data-netlify="true" onSubmit="submit">
                         <label>Fulde navn:
                             <input type="text" name="name" />
                         </label>
 
                         <label>Klan:
-                            <input type="text" name="name" />
+                            <input type="text" name="email" />
                         </label>
 
                         <label>Skal du have salatbar til 25 kr. Send pengene til 53 12 40 67 (Andreas):
