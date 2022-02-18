@@ -1,7 +1,6 @@
 import React from 'react'
 import Welcome from './assets/Components/FrontPage/Welcome';
 import BuyTicket from './assets/Components/Header/BuyTicket';
-import FestivalName from './assets/Components/Header/FestivalName';
 import GnuLogo from './assets/Components/Header/GnuLogo';
 
 
