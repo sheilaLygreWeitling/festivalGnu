@@ -5,7 +5,7 @@ const BuyForm = () => {
         <div>
             <div className='bg-gradient-to-r from-yellow-300 to-gray-400  h-[1000px] fonth1Body  items-center'>
                 <div className="border flex flex-col items-center max-w-min p-5">
-                    <form name="contact" method='POST' data-netlify="true" onSubmit="submit">
+                    <form name="contact" method='POST' netlify>
                         <label>Fulde navn:
                             <input type="text" name="name" />
                         </label>
